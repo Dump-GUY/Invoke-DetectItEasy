@@ -33,7 +33,7 @@ Optional parameter.<br/>
 Specifies Packer or Protection etc.. We want to detect. All possible values are already set-predefined.<br/>
 This parameter could be combined with others (example. with DetectNotValidSignature)<br/>
 
-.PARAMETER DetectNotValidSignature
+## PARAMETER DetectNotValidSignature
 Optional parameter.<br/>
 This parameter detects only PE32/PE64 without VALID Digital signatures where the output containing also reason (example. "HashMismatch", NotSigned) will be returned.<br/>
 This parameter could be combined with others.<br/>
