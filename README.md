@@ -59,5 +59,5 @@ PS> Invoke-DetectItEasy -PathToScan 'C:\PEs ccc' -PathToDiec "C:\die_win64_porta
 PS> (Invoke-DetectItEasy -PathToScan "C:\PEs ccc" -DetectNotValidSignature -PathToDiec "C:\die_win64_portable\diec.exe").filepath | %{Invoke-DetectItEasy -PathToScan $_ -PathToDiec "C:\die_win64_portable\diec.exe" -DetectPacked}<br/>
 
 ## LINKS
-Guide:<br/>
-https://www.youtube.com/c/DuMpGuYTrIcKsTeR<br/>
+Guide: https://www.youtube.com/c/DuMpGuYTrIcKsTeR<br/>
+Detect-It-Easy tool: https://github.com/horsicq/Detect-It-Easy<br/>
