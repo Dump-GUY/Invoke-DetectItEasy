@@ -1,11 +1,11 @@
 # Invoke-DetectItEasy
-Invoke-DetectItEasy is a powershell module and wrapper for excelent tool called Detect-It-Easy. It is very useful for Threat Hunting and Forensics.<br/>
+Invoke-DetectItEasy is a powershell module and wrapper for excellent tool called Detect-It-Easy. It is very useful for Threat Hunting and Forensics.<br/>
 
 ## ABOUT
 Author: Dump-GUY (@vinopaljiri)<br/>
 Credits: @horsicq - Author of Detect-It-Easy tool<br/>
 Required Version of Detect-It-Easy >= 3.03<br/>
-Invoke-DetectItEasy is a wrapper for excelent tool called Detect-It-Easy. This PS module is very useful for Threat Hunting and Forensics.<br/>
+Invoke-DetectItEasy is a wrapper for excellent tool called Detect-It-Easy. This PS module is very useful for Threat Hunting and Forensics.<br/>
 It could be also used to simply sort your malware repo.<br/>
 Sometimes we just need to find anything suspicious so we must to detect it on system or sort files offline on mounted acquired image.<br/>
 This tool already served well in many forensic related cases/incidents.<br/>
