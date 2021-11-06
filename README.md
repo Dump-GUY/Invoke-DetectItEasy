@@ -1,6 +1,8 @@
 # Invoke-DetectItEasy
 Invoke-DetectItEasy is a powershell module and wrapper for excellent tool called Detect-It-Easy. It is very useful for Threat Hunting and Forensics.<br/>
 
+Guide: [[YouTube]](https://youtu.be/O8o0txFtrfQ)<br/>
+Detect-It-Easy tool: https://github.com/horsicq/Detect-It-Easy<br/>
 ## ABOUT
 Author: Dump-GUY (@vinopaljiri)<br/>
 Credits: @horsicq - Author of Detect-It-Easy tool<br/>
@@ -58,6 +60,3 @@ PS> Invoke-DetectItEasy -PathToScan 'C:\PEs ccc\' -PathToDiec "C:\die_win64_port
 PS> Invoke-DetectItEasy -PathToScan 'C:\PEs ccc' -PathToDiec "C:\die_win64_portable\diec.exe" -DetectPacked | ?{$_.total -ge 7}<br/>
 PS> (Invoke-DetectItEasy -PathToScan "C:\PEs ccc" -DetectNotValidSignature -PathToDiec "C:\die_win64_portable\diec.exe").filepath | %{Invoke-DetectItEasy -PathToScan $_ -PathToDiec "C:\die_win64_portable\diec.exe" -DetectPacked}<br/>
 
-## LINKS
-Guide: https://www.youtube.com/c/DuMpGuYTrIcKsTeR<br/>
-Detect-It-Easy tool: https://github.com/horsicq/Detect-It-Easy<br/>
